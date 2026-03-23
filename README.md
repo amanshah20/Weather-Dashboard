@@ -41,8 +41,15 @@ It uses only free, no-key APIs and provides a fully responsive experience across
 
 ### Vercel
 
+- Import this repository in Vercel and deploy.
+- Build command: npm run build
+- Output directory: dist
+- Install command: npm install
+- Vercel config is included in vercel.json for SPA rewrites.
+
+CLI alternative:
 - npm install -g vercel
-- npm run build
+- vercel
 - vercel --prod
 
 ## Features Implemented
